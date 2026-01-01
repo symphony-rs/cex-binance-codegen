@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = [
+    "binance_spot*",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+
+[workspace.dependencies]
+binance_spot_sbe = { path = "binance_spot_sbe" }
+binance_spot_stream = { path = "binance_spot_stream" }
